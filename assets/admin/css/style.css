@@ -1,0 +1,89 @@
+/* general style for dashboard */
+
+.wp2messenger .wrap {
+	background: #f9f9f9;
+	border: 1px solid #e1e1e1;
+	padding: 20px;
+	border-radius: 8px;
+	margin:10px 2px 0 20px;
+}
+
+.wp2messenger .notice {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #0073aa;
+    background-color: #eaf7ff;
+}
+
+.wp2messenger .notice-success {
+    border-color: #46b450;
+    background-color: #eafaf1;
+}
+
+.wp2messenger .notice-error {
+    border-color: #dc3232;
+    background-color: #fbeaea;
+}
+
+.wp2messenger .form-table th {
+    font-weight: bold;
+    color: #333;
+}
+
+.wp2messenger .form-table td input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* wizard styles */
+
+.wp2messenger-wrap {
+    background: #e0e0e0;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 25px auto 0;
+}
+
+.wp2messenger-wrap h2 {
+    color: #333;
+    font-size: 20px;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.wp2messenger-wrap label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.wp2messenger-wrap input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.wp2messenger-wrap input[type="submit"] {
+    background: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.wp2messenger-wrap input[type="submit"]:hover {
+    background: #005a8e;
+}
+
+.wp2messenger-wrap p {
+    margin-bottom: 15px;
+}
